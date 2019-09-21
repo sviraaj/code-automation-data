@@ -1,0 +1,11 @@
+{
+    "name": "flash",
+    "version": "0.0.0",
+    "description": "Flash device system software drivers",
+    "modules" : [
+        { 
+            "name" : "w25n01gv",
+            "description" : "Winbond SPI NAND 1Gb flash"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "sensor",
+    "version": "0.0.0",
+    "description": "Sensor system software drivers",
+    "modules" : [
+        { 
+            "name" : "bmi160",
+            "description" : "Bosch low noise 16-bit inertial measurement unit"
+        },
+        {
+            "name" : "bme680",
+            "description" : "Bosch BME680 is a digital 4-in-1 sensor with gas, humidity, pressure and temperature"
+        },
+        {
+            "name" : "bme280",
+            "description" : "Bosch BME280 is as combined digital humidity, pressure and temperature sensor"
+        }
+    ]
+}
